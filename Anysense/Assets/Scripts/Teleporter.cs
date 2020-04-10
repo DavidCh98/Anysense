@@ -7,7 +7,6 @@ public enum TimeStart { stop, start };
 public class Teleporter : MonoBehaviour
 {
     [SerializeField] private Locations[] locations;
-    [SerializeField] private SimpleSoundCardPlayer soundcardPlayer;
     [SerializeField] private HappinessMeter happinessMeter;
 
     private void Awake()
@@ -19,7 +18,6 @@ public class Teleporter : MonoBehaviour
         }
         gameObject.transform.position = locations[0].position.position;
         gameObject.transform.rotation = locations[0].position.rotation;
-        soundcardPlayer.StartPlaying(locations[0].soundcard);
     }
 
     public void GoToLocation(int location)
@@ -27,7 +25,6 @@ public class Teleporter : MonoBehaviour
         if (location >= locations.Length) return;
         if (locations[location].timeStart == TimeStart.start)happinessMeter.StartCounting();
         else happinessMeter.StopCounting();
-        soundcardPlayer.StartPlaying(locations[location].soundcard);
         transform.position = locations[location].position.position;
         transform.rotation = locations[location].position.rotation;
     }
@@ -38,6 +35,5 @@ public class Locations
 { 
     [SerializeField] public string name;
     [SerializeField] public Transform position;
-    [SerializeField] public Soundcard soundcard;
     [SerializeField] public TimeStart timeStart;
 }
