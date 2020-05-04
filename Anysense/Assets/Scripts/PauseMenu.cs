@@ -10,7 +10,8 @@ public class PauseMenu : MonoBehaviour
     public GameObject pauseMenuUI;
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (OVRInput.Controller.LTouch.Button.Start)
+        //if (OVRInput.Get(OVRInput.Axis1D.PrimaryHandTrigger, OVRInput.Controller.LTouch) >= 0.1)
         {
             if (GameIsPaused)
             {
@@ -21,7 +22,7 @@ public class PauseMenu : MonoBehaviour
                 Pause();
             }
         }
-        if (GameIsPaused && Input.GetKeyDown(KeyCode.R))
+        if (GameIsPaused && OVRInput.Controller.LTouch.Button.Two)
         {
             Restart();
         }
