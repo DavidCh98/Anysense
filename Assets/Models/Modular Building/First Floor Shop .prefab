@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6401854501371104230}
   - component: {fileID: 1035800095395727386}
   - component: {fileID: 319980931547326904}
+  - component: {fileID: 2759770233729950209}
   m_Layer: 0
   m_Name: Shop window small
   m_TagString: Untagged
@@ -80,6 +81,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &2759770233729950209
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557724174392742741}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.15999998, y: 0.11512173, z: 0.03899999}
+  m_Center: {x: 0, y: 0.04756087, z: -9.313224e-10}
 --- !u!1 &1270188141348240030
 GameObject:
   m_ObjectHideFlags: 0
@@ -128,6 +142,7 @@ GameObject:
   - component: {fileID: 8953872951786054294}
   - component: {fileID: 1941037758283772090}
   - component: {fileID: 5637169442969198193}
+  - component: {fileID: 5793938901706300884}
   m_Layer: 0
   m_Name: 'Stairs '
   m_TagString: Untagged
@@ -196,6 +211,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5793938901706300884
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592011731799079857}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9002221286865384150, guid: b8e3b2a2d6b691143ba0651fb8efd80b, type: 3}
 --- !u!1 &2226488310999249422
 GameObject:
   m_ObjectHideFlags: 0
