@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4637314858256809974}
   - component: {fileID: 5434613594063120458}
   - component: {fileID: 5283625963393920291}
+  - component: {fileID: 364342246243231980}
   m_Layer: 0
   m_Name: Window
   m_TagString: Untagged
@@ -79,6 +80,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &364342246243231980
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345509503911212468}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1049928748687988745, guid: 5bcdd5bd5762db846a604ba21b1dbc89, type: 3}
 --- !u!1 &1147009787230505764
 GameObject:
   m_ObjectHideFlags: 0
@@ -90,6 +105,7 @@ GameObject:
   - component: {fileID: 6871129381383437668}
   - component: {fileID: 8001837162000862937}
   - component: {fileID: 8562680104366609537}
+  - component: {fileID: 5223542943617436872}
   m_Layer: 0
   m_Name: Engines
   m_TagString: Untagged
@@ -158,6 +174,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5223542943617436872
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147009787230505764}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5730317921102180854, guid: 5bcdd5bd5762db846a604ba21b1dbc89, type: 3}
 --- !u!1 &2306643650874652908
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,6 +199,7 @@ GameObject:
   - component: {fileID: 889477111192875124}
   - component: {fileID: 82087522714536295}
   - component: {fileID: 4762195345849635122}
+  - component: {fileID: 2396120165746792961}
   m_Layer: 0
   m_Name: Blinkers
   m_TagString: Untagged
@@ -237,6 +268,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2396120165746792961
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2306643650874652908}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1988132455879075592, guid: 5bcdd5bd5762db846a604ba21b1dbc89, type: 3}
 --- !u!1 &3384605824730524344
 GameObject:
   m_ObjectHideFlags: 0
@@ -248,6 +293,7 @@ GameObject:
   - component: {fileID: 1694106880781813847}
   - component: {fileID: 4400989373063105162}
   - component: {fileID: 4070987612689110443}
+  - component: {fileID: 1887781508541506756}
   m_Layer: 0
   m_Name: Turbine 2
   m_TagString: Untagged
@@ -316,6 +362,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1887781508541506756
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3384605824730524344}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8708174014834953752, guid: 5bcdd5bd5762db846a604ba21b1dbc89, type: 3}
 --- !u!1 &4864985714158380849
 GameObject:
   m_ObjectHideFlags: 0
@@ -367,6 +427,7 @@ GameObject:
   - component: {fileID: 1434594831495480198}
   - component: {fileID: 5284205797504393600}
   - component: {fileID: 2450912732889416890}
+  - component: {fileID: 148756316064907300}
   m_Layer: 0
   m_Name: horse
   m_TagString: Untagged
@@ -435,6 +496,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &148756316064907300
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6253340816078638160}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5703929531111152841, guid: 5bcdd5bd5762db846a604ba21b1dbc89, type: 3}
 --- !u!1 &6439805507178392669
 GameObject:
   m_ObjectHideFlags: 0
@@ -446,6 +521,7 @@ GameObject:
   - component: {fileID: 2042520248121803007}
   - component: {fileID: 4485278467038852160}
   - component: {fileID: 6445292541823921223}
+  - component: {fileID: 7901529710162424258}
   m_Layer: 0
   m_Name: car body
   m_TagString: Untagged
@@ -514,6 +590,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7901529710162424258
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6439805507178392669}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3585464860296594789, guid: 5bcdd5bd5762db846a604ba21b1dbc89, type: 3}
 --- !u!1 &6593845393336486975
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,6 +615,7 @@ GameObject:
   - component: {fileID: 8769842208577261282}
   - component: {fileID: 179644246264769904}
   - component: {fileID: 6885595466091808183}
+  - component: {fileID: 4561938200516547183}
   m_Layer: 0
   m_Name: Icosphere
   m_TagString: Untagged
@@ -593,6 +684,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4561938200516547183
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6593845393336486975}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 289301614986012343, guid: 5bcdd5bd5762db846a604ba21b1dbc89, type: 3}
 --- !u!1 &6926878358941348269
 GameObject:
   m_ObjectHideFlags: 0
@@ -604,6 +709,7 @@ GameObject:
   - component: {fileID: 9153015307402491931}
   - component: {fileID: 3520649574197179103}
   - component: {fileID: 7315477259028180709}
+  - component: {fileID: 5299308874869057865}
   m_Layer: 0
   m_Name: 'turbine 1 '
   m_TagString: Untagged
@@ -672,6 +778,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5299308874869057865
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6926878358941348269}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2877491037111743304, guid: 5bcdd5bd5762db846a604ba21b1dbc89, type: 3}
 --- !u!1 &7370467774050932516
 GameObject:
   m_ObjectHideFlags: 0
@@ -683,6 +803,7 @@ GameObject:
   - component: {fileID: 408333908507859642}
   - component: {fileID: 521279501708384274}
   - component: {fileID: 997681303598859952}
+  - component: {fileID: 4354907823994277753}
   m_Layer: 0
   m_Name: Headlights
   m_TagString: Untagged
@@ -751,6 +872,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4354907823994277753
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7370467774050932516}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5844631087585904454, guid: 5bcdd5bd5762db846a604ba21b1dbc89, type: 3}
 --- !u!1 &8476543953011996082
 GameObject:
   m_ObjectHideFlags: 0
@@ -762,6 +897,7 @@ GameObject:
   - component: {fileID: 2149957296058326460}
   - component: {fileID: 780843420941315263}
   - component: {fileID: 4677080258789714222}
+  - component: {fileID: 2257664636134003125}
   m_Layer: 0
   m_Name: Fins
   m_TagString: Untagged
@@ -830,3 +966,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2257664636134003125
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8476543953011996082}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7825787162328051484, guid: 5bcdd5bd5762db846a604ba21b1dbc89, type: 3}
