@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 4198031395927039655}
   - component: {fileID: 543998536431822849}
   - component: {fileID: 1022778777771978758}
+  - component: {fileID: 5114393448068051568}
   m_Layer: 0
   m_Name: Garage
   m_TagString: Untagged
@@ -159,6 +160,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5114393448068051568
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5447662666078062489}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8022421388081687683, guid: d79585eeb588a0d49997f03a71d8444c, type: 3}
 --- !u!1 &6298002553019530184
 GameObject:
   m_ObjectHideFlags: 0
