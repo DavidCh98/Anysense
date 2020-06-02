@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{f113185c-774d-47d6-b244-27f34a89150d}">
+		<property name="assetPath">
+			<value>Robot Bird 2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>9.5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{968bb652-2d16-4924-a2df-dbdc4600d17f}</destination>
+		</relationship>
+	</object>
+</objects>
