@@ -1,32 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!64 &5962010924043727142
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4125560429708249431}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 9002221286865384150, guid: b8e3b2a2d6b691143ba0651fb8efd80b, type: 3}
---- !u!65 &2980629336898660450
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6139482583078941848}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.043944757, y: 0.12762995, z: 0.09428584}
-  m_Center: {x: 0, y: 0.032582425, z: -0.021519218}
 --- !u!1 &6733765932585970378
 GameObject:
   m_ObjectHideFlags: 0
@@ -36,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 343619967588133288}
-  - component: {fileID: 420227363597942686}
   m_Layer: 0
   m_Name: 'Building Desing 1 '
   m_TagString: Untagged
@@ -63,45 +35,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &420227363597942686
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6733765932585970378}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 16.053955, y: 13.467621, z: 11.607826}
-  m_Center: {x: -2.014923, y: 4.6122284, z: 2.200039}
---- !u!65 &2050693046481988577
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8698370913480079912}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.012634582, y: 0.012359535, z: 0.041119996}
-  m_Center: {x: 0.0006376648, y: -0.026697911, z: 0.00015164376}
---- !u!65 &8170439922137680424
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8698370913480079912}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.012537923, y: 0.012667925, z: 0.041193694}
-  m_Center: {x: 0.0005722448, y: 0.026858244, z: 0.00011479616}
 --- !u!1001 &5608785914276841845
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -209,18 +142,6 @@ PrefabInstance:
 --- !u!4 &625118385397965423 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: d7edd1581a6e5284c888a239c78ea719,
-    type: 3}
-  m_PrefabInstance: {fileID: 5608785914276841845}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8698370913480079912 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3846280034301932381, guid: d7edd1581a6e5284c888a239c78ea719,
-    type: 3}
-  m_PrefabInstance: {fileID: 5608785914276841845}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &6139482583078941848 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1794046679141432813, guid: d7edd1581a6e5284c888a239c78ea719,
     type: 3}
   m_PrefabInstance: {fileID: 5608785914276841845}
   m_PrefabAsset: {fileID: 0}
@@ -379,12 +300,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5608785914600788337}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &4125560429708249431 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -822322234582001626, guid: b8e3b2a2d6b691143ba0651fb8efd80b,
-    type: 3}
-  m_PrefabInstance: {fileID: 5608785914600788337}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5608785915049788923
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -396,7 +311,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 3b147fe4582dda043a3486e22e9352af, type: 2}
+      objectReference: {fileID: 2100000, guid: c20d95935854b294b80b13d4ba0d3622, type: 2}
     - target: {fileID: -4216859302048453862, guid: 34872555994476a4881f54c72774e635,
         type: 3}
       propertyPath: m_LocalPosition.x
