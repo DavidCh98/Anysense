@@ -1817,7 +1817,14 @@ MonoBehaviour:
   meshRenderer: {fileID: 2069940283}
   goColor: {r: 0.0129516125, g: 1, b: 0, a: 1}
   stopColor: {r: 1, g: 0.00000010927518, b: 0, a: 1}
-  active: 0
+  transitionLength: 5
+  emission: 4
+  timerEnable: 1
+  goTimer: 5
+  stopTimer: 10
+  switchGo: 0
+  greenLight: 0
+  transitioning: 0
 --- !u!43 &688779567
 Mesh:
   m_ObjectHideFlags: 0
