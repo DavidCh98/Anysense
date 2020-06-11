@@ -126,9 +126,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{020f0675-f2e6-4220-84de-d1a1bc91d78c}">
-		<property name="volume">
-			<value>-22.5</value>
-		</property>
 		<property name="name">
 			<value>Servos</value>
 		</property>
@@ -238,7 +235,6 @@
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -296,7 +292,6 @@
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>
