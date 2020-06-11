@@ -5,7 +5,7 @@ using UnityEngine;
 public class Robot : MonoBehaviour
 {
     public GameObject[] waypoints;
-    public GameObject chekersGuy;
+    public GameObject robot;
     int current = 0;
     float speed = 0;//Don't touch this
     float maxSpeed= 1;
@@ -20,7 +20,7 @@ public class Robot : MonoBehaviour
         if (Vector3.Distance(waypoints[current].transform.position, transform.position) < WPradius)
         {
             speed = 0;
-           //for Random
+            //for Random
             current = Random.Range(0, waypoints.Length);
             if (current >= waypoints.Length)
             {
@@ -29,7 +29,7 @@ public class Robot : MonoBehaviour
         }
         Vector3 relativePos = waypoints[current].transform.position - transform.position;
         transform.rotation = Quaternion.LookRotation(relativePos);
-        transform.position = Vector3.MoveTowards(transform.position, waypoints[current].transform.position, Time.deltaTime * speed); 
-       
-    }
+        transform.position = Vector3.MoveTowards(transform.position, waypoints[current].transform.position, Time.deltaTime * speed);
+        
+}
 }
