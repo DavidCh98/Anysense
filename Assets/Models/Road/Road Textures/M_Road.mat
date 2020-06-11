@@ -22,9 +22,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Road
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _EMISSION _METALLICGLOSSMAP _METALLICSPECGLOSSMAP _NORMALMAP
-    _OCCLUSIONMAP
-  m_LightmapFlags: 1
+  m_ShaderKeywords: _METALLICGLOSSMAP _METALLICSPECGLOSSMAP _NORMALMAP _OCCLUSIONMAP
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -58,7 +57,7 @@ Material:
         m_Scale: {x: 20, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 50284b17e6f1fcb4cb223c19983b4416, type: 3}
+        m_Texture: {fileID: 2800000, guid: a882a2d218378be45993ac6735c94bef, type: 3}
         m_Scale: {x: 20, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
