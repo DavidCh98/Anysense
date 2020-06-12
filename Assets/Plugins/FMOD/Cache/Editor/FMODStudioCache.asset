@@ -1,0 +1,2063 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9187840120530831950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RobotBird
+  m_EditorClassIdentifier: 
+  Path: event:/RobotBird
+  guid: edb642375af9234186d8bc1df3c034a7
+  Banks:
+  - {fileID: -7515070170053552593}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 9500
+--- !u!114 &-9098888047987632129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/PlayerBank.bank
+  SubDir: 
+  lastModified: 637272313970000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-8563004729355613260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/AmbienceBank.bank
+  SubDir: 
+  lastModified: 637272318480000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-8486800788382498365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/AmbienceBank.bank
+  SubDir: 
+  lastModified: 637272270700000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-8477991183979717904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerMovement/Stopping
+  m_EditorClassIdentifier: 
+  Name: Stopping
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-7799957155534494484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/AmbienceBank.bank
+  SubDir: 
+  lastModified: 637272273440000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-7620420758531054114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/PlayerBank.bank
+  SubDir: 
+  lastModified: 637272314460000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-7515070170053552593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/AmbienceBank.bank
+  SubDir: 
+  lastModified: 637272319790000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-7408995320665080988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/AmbienceBank.bank
+  SubDir: 
+  lastModified: 637272319210000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-7162994658020571768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637272312980000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-7141598083012378032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerMovement/Stopping
+  m_EditorClassIdentifier: 
+  Name: Stopping
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-7140436883682007088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerMovement/Stopping
+  m_EditorClassIdentifier: 
+  Name: Stopping
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-6848898686500413875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637272273550000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-6841417872643014253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/PlayerBank.bank
+  SubDir: 
+  lastModified: 637272316040000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-6810140696579104732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/AmbienceBank.bank
+  SubDir: 
+  lastModified: 637272311740000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-6321035202225574411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HumanFootstep
+  m_EditorClassIdentifier: 
+  Path: event:/HumanFootstep
+  guid: 4cb743ad66670746925d1850b2c889f4
+  Banks:
+  - {fileID: -7515070170053552593}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 343
+--- !u!114 &-6166788139017870472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637272270700000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5900922234201530528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/AmbienceBank.bank
+  SubDir: 
+  lastModified: 637272306490000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5798105849047290833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/AmbienceBank.bank
+  SubDir: 
+  lastModified: 637272313970000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5431110593842747003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637267080980000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5301625035155613785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/AmbienceBank.bank
+  SubDir: 
+  lastModified: 637272290300000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5293649077010230237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/PlayerBank.bank
+  SubDir: 
+  lastModified: 637272290300000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4918544018625325879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerMovement/Stopping
+  m_EditorClassIdentifier: 
+  Name: Stopping
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-4841679262716811149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637272290300000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4710832853274949424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/LampPost
+  m_EditorClassIdentifier: 
+  Path: event:/LampPost
+  guid: eb95327ca460f047a6627e6db0a36bd2
+  Banks:
+  - {fileID: -7515070170053552593}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 6500
+--- !u!114 &-4664919701762504113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637272317720000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4557459749521016709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/PlayerBank.bank
+  SubDir: 
+  lastModified: 637272317230000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4488263992589317350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/PlayerBank.bank
+  SubDir: 
+  lastModified: 637272256160000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4415717971443743752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637272319790000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1328
+  Exists: 1
+--- !u!114 &-4334594136066602728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637272313520000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4295272950205577478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerMovement/Stopping
+  m_EditorClassIdentifier: 
+  Name: Stopping
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-3847370101943692620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637272319210000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-3647959434286412623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerMovement/Stopping
+  m_EditorClassIdentifier: 
+  Name: Stopping
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-3611037540097822113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637272256160000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-3598356138917201855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerMovement/Stopping
+  m_EditorClassIdentifier: 
+  Name: Stopping
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-3483440170405323495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/PlayerBank.bank
+  SubDir: 
+  lastModified: 637272318480000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-3200407657193382547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637272313970000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-3171417537178765058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637272317230000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-3007139275857642771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerMovement/Stopping
+  m_EditorClassIdentifier: 
+  Name: Stopping
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-2262349249799130345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/PlayerBank.bank
+  SubDir: 
+  lastModified: 637272296520000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-2218633227208704890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerMovement/Stopping
+  m_EditorClassIdentifier: 
+  Name: Stopping
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-1910897773747748286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637272315090000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-1833748080260818324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/AmbienceBank.bank
+  SubDir: 
+  lastModified: 637272256160000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-1505522268742290491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/PlayerBank.bank
+  SubDir: 
+  lastModified: 637272308840000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-1228041427792978767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/AmbienceBank.bank
+  SubDir: 
+  lastModified: 637272289760000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-1075326197344965681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637272311740000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-632062580078669532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PlayerMovement
+  m_EditorClassIdentifier: 
+  Path: event:/PlayerMovement
+  guid: 584b236220423d449987e7363d010025
+  Banks:
+  - {fileID: 424107036411527184}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -3598356138917201855}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 6664
+--- !u!114 &-584012114942159580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/AmbienceBank.bank
+  SubDir: 
+  lastModified: 637272316820000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-480277848646274182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/PlayerBank.bank
+  SubDir: 
+  lastModified: 637272313530000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-439300640208771681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/PlayerBank.bank
+  SubDir: 
+  lastModified: 637272288720000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-143953414698033723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerMovement/Stopping
+  m_EditorClassIdentifier: 
+  Name: Stopping
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -4415717971443743752}
+  - {fileID: -7515070170053552593}
+  - {fileID: 530222863577819983}
+  - {fileID: 424107036411527184}
+  EditorEvents:
+  - {fileID: 4927504814711319705}
+  - {fileID: -6321035202225574411}
+  - {fileID: 8715663488758928537}
+  - {fileID: 5822307818920309422}
+  - {fileID: 5776388035935358080}
+  - {fileID: 132923491945647124}
+  - {fileID: -4710832853274949424}
+  - {fileID: -9187840120530831950}
+  - {fileID: 3232431011181888972}
+  - {fileID: -632062580078669532}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 530222863577819983}
+  StringsBanks:
+  - {fileID: -4415717971443743752}
+  stringsBankWriteTime: 637272319790000000
+  cacheVersion: 3
+--- !u!114 &132923491945647124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CarStarting
+  m_EditorClassIdentifier: 
+  Path: event:/CarStarting
+  guid: a2c7af9cebdb2246aeddc6205053776b
+  Banks:
+  - {fileID: -7515070170053552593}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 16812
+--- !u!114 &251047269819384175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerMovement/Stopping
+  m_EditorClassIdentifier: 
+  Name: Stopping
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &319142528696411616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/PlayerBank.bank
+  SubDir: 
+  lastModified: 637272316820000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &395402130811401859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637272306490000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &424107036411527184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/PlayerBank.bank
+  SubDir: 
+  lastModified: 637272319790000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &530222863577819983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637272319790000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &767028471307414957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerMovement/Stopping
+  m_EditorClassIdentifier: 
+  Name: Stopping
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &982316077736177721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/AmbienceBank.bank
+  SubDir: 
+  lastModified: 637272314460000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &1028661533168277415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/PlayerBank.bank
+  SubDir: 
+  lastModified: 637272315090000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &1224427936319280886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerMovement/Stopping
+  m_EditorClassIdentifier: 
+  Name: Stopping
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &1422736452890261749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/AmbienceBank.bank
+  SubDir: 
+  lastModified: 637272316040000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &1479204031157022978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerMovement/Stopping
+  m_EditorClassIdentifier: 
+  Name: Stopping
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &1898279352450159899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637272316820000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &1920251987330855880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerMovement/Stopping
+  m_EditorClassIdentifier: 
+  Name: Stopping
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &2030285404358278015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerMovement/Stopping
+  m_EditorClassIdentifier: 
+  Name: Stopping
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &2097186657081598725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/PlayerBank.bank
+  SubDir: 
+  lastModified: 637272317720000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2203040220239748161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637272308840000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2396706610185876071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/AmbienceBank.bank
+  SubDir: 
+  lastModified: 637272273550000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2558852792826178144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/PlayerBank.bank
+  SubDir: 
+  lastModified: 637272273440000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2570459663948326627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637272296520000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2715018982829492577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637272289760000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2743766641009482076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637272312580000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2769485029165692809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637272273440000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &3006650751405023419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637272316040000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &3232431011181888972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AmbienceBed
+  m_EditorClassIdentifier: 
+  Path: event:/AmbienceBed
+  guid: fbdf694cfbb5544897994aebcb1ee7cd
+  Banks:
+  - {fileID: -7515070170053552593}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 10000
+  Length: 33750
+--- !u!114 &3256481644564574144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/PlayerBank.bank
+  SubDir: 
+  lastModified: 637272312980000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &3961647611861405685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/AmbienceBank.bank
+  SubDir: 
+  lastModified: 637272312980000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &4062951594154051277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/AmbienceBank.bank
+  SubDir: 
+  lastModified: 637272317720000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &4436520203938328026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/PlayerBank.bank
+  SubDir: 
+  lastModified: 637272306490000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &4478438379240876771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/PlayerBank.bank
+  SubDir: 
+  lastModified: 637272319210000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &4851013588920719170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/AmbienceBank.bank
+  SubDir: 
+  lastModified: 637272312580000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &4927504814711319705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CarDoorClosing
+  m_EditorClassIdentifier: 
+  Path: event:/CarDoorClosing
+  guid: 30800e20cf65f9459175b0e0b1e64dd7
+  Banks:
+  - {fileID: -7515070170053552593}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3396
+--- !u!114 &5027786432529203816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/AmbienceBank.bank
+  SubDir: 
+  lastModified: 637267080980000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &5171930211791435752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/AmbienceBank.bank
+  SubDir: 
+  lastModified: 637272288720000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &5414191932838161857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerMovement/Stopping
+  m_EditorClassIdentifier: 
+  Name: Stopping
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &5579546609454476436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerMovement/Stopping
+  m_EditorClassIdentifier: 
+  Name: Stopping
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &5776388035935358080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RobotFootstep
+  m_EditorClassIdentifier: 
+  Path: event:/RobotFootstep
+  guid: 82bd65329073464d9760b7cbcaf17180
+  Banks:
+  - {fileID: -7515070170053552593}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 500
+--- !u!114 &5822307818920309422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NeonSign
+  m_EditorClassIdentifier: 
+  Path: event:/NeonSign
+  guid: 79c79554d31f1e47aee4dba75ade99e7
+  Banks:
+  - {fileID: -7515070170053552593}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 21000
+--- !u!114 &5865587228110608706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerMovement/Stopping
+  m_EditorClassIdentifier: 
+  Name: Stopping
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &5894546438652387495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637272288720000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &5901476668325925565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/AmbienceBank.bank
+  SubDir: 
+  lastModified: 637272296520000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &5957607869567400906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/PlayerBank.bank
+  SubDir: 
+  lastModified: 637272311740000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &6033982470030883889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/PlayerBank.bank
+  SubDir: 
+  lastModified: 637272273550000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &6224661021240034869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/PlayerBank.bank
+  SubDir: 
+  lastModified: 637267080980000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &6266905705539239489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerMovement/Stopping
+  m_EditorClassIdentifier: 
+  Name: Stopping
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &6447004913926653019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/PlayerBank.bank
+  SubDir: 
+  lastModified: 637272270700000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &7023631906163520702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/AmbienceBank.bank
+  SubDir: 
+  lastModified: 637272313520000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &7350851878457148110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637272314460000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &7482441856438781834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/AmbienceBank.bank
+  SubDir: 
+  lastModified: 637272315090000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &7867470010832080871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerMovement/Stopping
+  m_EditorClassIdentifier: 
+  Name: Stopping
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &8158921213160730956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/PlayerBank.bank
+  SubDir: 
+  lastModified: 637272312580000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8178435548732447263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/AmbienceBank.bank
+  SubDir: 
+  lastModified: 637272308840000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8329469828633006411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/AmbienceBank.bank
+  SubDir: 
+  lastModified: 637272317230000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8398896758760213609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerMovement/Stopping
+  m_EditorClassIdentifier: 
+  Name: Stopping
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &8398956267602684832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerMovement/Stopping
+  m_EditorClassIdentifier: 
+  Name: Stopping
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &8715663488758928537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drone
+  m_EditorClassIdentifier: 
+  Path: event:/Drone
+  guid: 780bfcd4abaf1247b9d1d601a3fc74a5
+  Banks:
+  - {fileID: -7515070170053552593}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3000
+--- !u!114 &9015583299954159753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/PlayerBank.bank
+  SubDir: 
+  lastModified: 637272289760000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &9037783873570559315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637272318480000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &9070596964891516772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerMovement/Stopping
+  m_EditorClassIdentifier: 
+  Name: Stopping
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &9194688484090654890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerMovement/Stopping
+  m_EditorClassIdentifier: 
+  Name: Stopping
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
