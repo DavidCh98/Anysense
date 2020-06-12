@@ -4,30 +4,47 @@ using UnityEngine;
 
 public class Drone : MonoBehaviour
 {
-    public GameObject[] waypoints;
-    int current = 0;
-    float speed = 0;//Don't touch this
-    float maxSpeed= 1;
-    float acceleration= 0.4f;
-    float WPradius = 1;
+    Transform myTrans;
+
+    //how long to keep moving up or down until switching direction
+    public float verticalTime = 2f;
+    //how fast to move vertically
+    public float verticalSpeed = 0.5f;
+    //how fast to move forward
+    public float moveSpeed = 1f;
+
+    void Start()
+    {
+        myTrans = this.transform;
+        StartCoroutine(Rise());
+    }
+
     void Update()
     {
-        if (speed <= maxSpeed)
+        myTrans.Translate(myTrans.forward * moveSpeed * Time.deltaTime);
+    }
+
+    IEnumerator Rise()
+    {
+        float t = verticalTime;
+        while (t > 0f)
         {
-            speed = speed + acceleration * Time.deltaTime;
+            myTrans.Translate(myTrans.up * verticalSpeed * Time.deltaTime);
+            t -= Time.deltaTime;
+            yield return new WaitForEndOfFrame();
         }
-        if (Vector3.Distance(waypoints[current].transform.position, transform.position) < WPradius)
+        StartCoroutine(Fall());
+    }
+
+    IEnumerator Fall()
+    {
+        float t = verticalTime;
+        while (t > 0f)
         {
-            speed = 0;
-           //for Random
-            current = Random.Range(0, waypoints.Length);
-            if (current >= waypoints.Length)
-            {
-                current = 0;
-            }
+            myTrans.Translate(-myTrans.up * verticalSpeed * Time.deltaTime);
+            t -= Time.deltaTime;
+            yield return new WaitForEndOfFrame();
         }
-        Vector3 relativePos = waypoints[current].transform.position - transform.position;
-        transform.position = Vector3.MoveTowards(transform.position, waypoints[current].transform.position, Time.deltaTime * speed);
-        
+        StartCoroutine(Rise());
     }
 }

@@ -5,11 +5,11 @@ using UnityEngine;
 public class CheckersGuy : MonoBehaviour
 {
     public GameObject[] waypoints;
-    public GameObject chekersGuy;
+    public Animator m_Animator;
     int current = 0;
     float speed = 0;//Don't touch this
-    float maxSpeed= 2;
-    float acceleration= 0.4f;
+    float maxSpeed = 1;
+    float acceleration = 0.4f;
     float WPradius = 1;
     void Update()
     {
@@ -19,17 +19,22 @@ public class CheckersGuy : MonoBehaviour
         }
         if (Vector3.Distance(waypoints[current].transform.position, transform.position) < WPradius)
         {
-            speed = 0;
-           //for Random
-            current = Random.Range(0, waypoints.Length);
+            current++;
             if (current >= waypoints.Length)
             {
+                speed = 0;
                 current = 0;
+                maxSpeed = 0;
+                acceleration = 0;
+                WPradius = 0;
+                //stopWalkingAnimation
+                m_Animator.SetBool("StopWalking", true);
+                transform.Rotate(0, -145, 0, Space.Self);
             }
         }
         Vector3 relativePos = waypoints[current].transform.position - transform.position;
         transform.rotation = Quaternion.LookRotation(relativePos);
-        transform.position = Vector3.MoveTowards(transform.position, waypoints[current].transform.position, Time.deltaTime * speed); 
-       
+        transform.position = Vector3.MoveTowards(transform.position, waypoints[current].transform.position, Time.deltaTime * speed);
+
     }
 }

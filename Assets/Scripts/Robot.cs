@@ -21,7 +21,7 @@ public class Robot : MonoBehaviour
         {
             speed = 0;
             //for Random
-            current = Random.Range(0, waypoints.Length);
+            current++;
             if (current >= waypoints.Length)
             {
                 current = 0;
