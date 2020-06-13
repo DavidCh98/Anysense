@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!95 &620690518
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7609981800269677767}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 913d096404d97dd41a8f67072b7b23a0, type: 3}
+  m_Controller: {fileID: 9100000, guid: 3059de4dd2c75d14fbef61e0ece9ef50, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1001 &2444273947764701431
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5221879874544909360, guid: 384e7460323c07a48a7e678ffbdb9216,
+        type: 3}
+      propertyPath: m_Name
+      value: MotherGlassUnwrapped@Idle
+      objectReference: {fileID: 0}
+    - target: {fileID: 9091784463772569123, guid: 384e7460323c07a48a7e678ffbdb9216,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 356.09927
+      objectReference: {fileID: 0}
+    - target: {fileID: 9091784463772569123, guid: 384e7460323c07a48a7e678ffbdb9216,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 196.59001
+      objectReference: {fileID: 0}
+    - target: {fileID: 9091784463772569123, guid: 384e7460323c07a48a7e678ffbdb9216,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -15.072765
+      objectReference: {fileID: 0}
+    - target: {fileID: 9091784463772569123, guid: 384e7460323c07a48a7e678ffbdb9216,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9091784463772569123, guid: 384e7460323c07a48a7e678ffbdb9216,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9091784463772569123, guid: 384e7460323c07a48a7e678ffbdb9216,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9091784463772569123, guid: 384e7460323c07a48a7e678ffbdb9216,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9091784463772569123, guid: 384e7460323c07a48a7e678ffbdb9216,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9091784463772569123, guid: 384e7460323c07a48a7e678ffbdb9216,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9091784463772569123, guid: 384e7460323c07a48a7e678ffbdb9216,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9091784463772569123, guid: 384e7460323c07a48a7e678ffbdb9216,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 384e7460323c07a48a7e678ffbdb9216, type: 3}
+--- !u!1 &7609981800269677767 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5221879874544909360, guid: 384e7460323c07a48a7e678ffbdb9216,
+    type: 3}
+  m_PrefabInstance: {fileID: 2444273947764701431}
+  m_PrefabAsset: {fileID: 0}

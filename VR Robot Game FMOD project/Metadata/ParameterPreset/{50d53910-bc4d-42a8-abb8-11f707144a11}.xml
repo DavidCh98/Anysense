@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{50d53910-bc4d-42a8-abb8-11f707144a11}">
+		<property name="name">
+			<value>Stopping</value>
+		</property>
+		<relationship name="folder">
+			<destination>{57b67440-f38f-425f-b7bf-1cb86623f83f}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{3308a8f2-384e-4dd4-9394-61de241d53f5}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{3308a8f2-384e-4dd4-9394-61de241d53f5}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{ddc47b8c-df9b-43ba-907f-892fc85c9d57}</destination>
+		</relationship>
+	</object>
+	<object class="ADSRModulator" id="{ddc47b8c-df9b-43ba-907f-892fc85c9d57}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>0</value>
+		</property>
+		<property name="finalValue">
+			<value>100</value>
+		</property>
+	</object>
+</objects>

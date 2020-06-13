@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{c551e639-df97-45d6-95bc-4c9affc36c45}">
+		<property name="assetPath">
+			<value>LampsNeon/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{968bb652-2d16-4924-a2df-dbdc4600d17f}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5650652843049602185}
   - component: {fileID: 5650652843049602186}
-  - component: {fileID: 5650652843049602187}
   m_Layer: 0
   m_Name: drone
   m_TagString: Untagged
@@ -50,24 +49,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!114 &5650652843049602187
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5650652843049602180}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 913f4a0a46c2340418261c85d6e8dc98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  waypoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  drone: {fileID: 5650652843049602180}
 --- !u!1 &5650652844159907382
 GameObject:
   m_ObjectHideFlags: 0
