@@ -75,9 +75,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{4be32aca-6419-4166-9f99-530e519708e3}">
-		<property name="volume">
-			<value>10</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{07d5fdf2-4926-4476-8c44-ce29e1587c46}</destination>
 		</relationship>
@@ -265,7 +262,7 @@
 			<value>Reflections</value>
 		</property>
 		<property name="value">
-			<value>true</value>
+			<value>false</value>
 		</property>
 	</object>
 	<object class="BoolPluginParameter" id="{2996c317-04c6-4f2d-a598-16b8914b4561}">
@@ -284,7 +281,7 @@
 			<value>{(0.000000,0.000000)(1.000000,1.000000)(2.000000,4.000000)(3.000000,11.000000)(4.000000,25.000000)(5.000000,100.000000)(6.000000,1000.000000)}</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>2.49999976</value>
 		</property>
 	</object>
 	<object class="FloatPluginParameter" id="{786b7fb4-5241-49c3-b087-f042ad914f83}">
@@ -295,7 +292,7 @@
 			<value>{(0.000000,0.000000)(1.000000,5.000000)(2.000000,10.000000)(3.000000,100.000000)(4.000000,1000.000000)(5.000000,10000.000000)}</value>
 		</property>
 		<property name="value">
-			<value>0.25</value>
+			<value>1.60000002</value>
 		</property>
 	</object>
 	<object class="FloatPluginParameter" id="{cf14a70d-87fa-4669-9573-b2b8fa14eaae}">
@@ -306,7 +303,7 @@
 			<value>{(0.000000,0.000000)(1.000000,5.000000)(2.000000,10.000000)(3.000000,100.000000)(4.000000,1000.000000)(5.000000,10000.000000)}</value>
 		</property>
 		<property name="value">
-			<value>250</value>
+			<value>30</value>
 		</property>
 	</object>
 	<object class="DataPluginParameter" id="{75ff71a1-b6ce-44e1-8cf8-e3b440723a61}">

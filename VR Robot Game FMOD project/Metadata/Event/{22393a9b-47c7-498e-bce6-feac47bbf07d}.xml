@@ -75,9 +75,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{5f43587f-2e76-4f66-8cef-adcff26ed726}">
-		<property name="volume">
-			<value>10</value>
-		</property>
 		<property name="pitch">
 			<value>-12</value>
 		</property>
@@ -268,7 +265,7 @@
 			<value>Reflections</value>
 		</property>
 		<property name="value">
-			<value>true</value>
+			<value>false</value>
 		</property>
 	</object>
 	<object class="BoolPluginParameter" id="{417cd610-69e5-4095-bc4d-4101f340a869}">
@@ -287,7 +284,7 @@
 			<value>{(0.000000,0.000000)(1.000000,1.000000)(2.000000,4.000000)(3.000000,11.000000)(4.000000,25.000000)(5.000000,100.000000)(6.000000,1000.000000)}</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>2.49999976</value>
 		</property>
 	</object>
 	<object class="FloatPluginParameter" id="{4d3b1e15-3ba8-46fc-bfa7-086375cdf85c}">
@@ -298,7 +295,7 @@
 			<value>{(0.000000,0.000000)(1.000000,5.000000)(2.000000,10.000000)(3.000000,100.000000)(4.000000,1000.000000)(5.000000,10000.000000)}</value>
 		</property>
 		<property name="value">
-			<value>0.25</value>
+			<value>1.60000002</value>
 		</property>
 	</object>
 	<object class="FloatPluginParameter" id="{5650ba5e-cd76-4df2-9a7a-6e69e7350d7a}">
@@ -309,7 +306,7 @@
 			<value>{(0.000000,0.000000)(1.000000,5.000000)(2.000000,10.000000)(3.000000,100.000000)(4.000000,1000.000000)(5.000000,10000.000000)}</value>
 		</property>
 		<property name="value">
-			<value>250</value>
+			<value>30</value>
 		</property>
 	</object>
 	<object class="DataPluginParameter" id="{115550d9-9a5f-4625-8c15-7952bf3c3bd9}">
