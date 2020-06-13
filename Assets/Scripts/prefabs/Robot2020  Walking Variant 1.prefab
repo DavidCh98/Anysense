@@ -35,6 +35,29 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   robot: {fileID: 951925407915689881}
+--- !u!114 &2659578836125346130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4359789677743544221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/RobotVoiceMale
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1001 &3641439150260279751
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -100,13 +123,19 @@ PrefabInstance:
     - target: {fileID: 4592851935090777694, guid: 0eaf7e32e88dbed45834d7ff133e8c4f,
         type: 3}
       propertyPath: m_Name
-      value: Robot2020  Walking Variant
+      value: Robot2020  Walking Variant 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0eaf7e32e88dbed45834d7ff133e8c4f, type: 3}
 --- !u!1 &951925407915689881 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4592851935090777694, guid: 0eaf7e32e88dbed45834d7ff133e8c4f,
+    type: 3}
+  m_PrefabInstance: {fileID: 3641439150260279751}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4359789677743544221 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1011594686393437786, guid: 0eaf7e32e88dbed45834d7ff133e8c4f,
     type: 3}
   m_PrefabInstance: {fileID: 3641439150260279751}
   m_PrefabAsset: {fileID: 0}
