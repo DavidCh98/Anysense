@@ -29,7 +29,6 @@ public class CheckersGuy : MonoBehaviour
                 WPradius = 0;
                 //stopWalkingAnimation
                 m_Animator.SetBool("StopWalking", true);
-                transform.Rotate(0, -145, 0, Space.Self);
             }
         }
         Vector3 relativePos = waypoints[current].transform.position - transform.position;

@@ -19,6 +19,8 @@ public class CoronaGuy : MonoBehaviour
         }
         if (Vector3.Distance(waypoints[current].transform.position, transform.position) < WPradius)
         {
+            Vector3 relativePos = waypoints[current].transform.position - transform.position;
+            transform.rotation = Quaternion.LookRotation(relativePos);
             current++;
             if (current >= waypoints.Length)
             {
@@ -29,11 +31,9 @@ public class CoronaGuy : MonoBehaviour
                 WPradius = 0;
                 //stopWalkingAnimation
                 m_Animator.SetBool("StopWalking", true);
-                transform.Rotate(0, -175, 0, Space.Self);
+                transform.Rotate(0, 90, 0, Space.World);
             }
         }
-        Vector3 relativePos = waypoints[current].transform.position - transform.position;
-        transform.rotation = Quaternion.LookRotation(relativePos);
         transform.position = Vector3.MoveTowards(transform.position, waypoints[current].transform.position, Time.deltaTime * speed);
 
     }
