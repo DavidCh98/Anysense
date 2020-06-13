@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{9f1ce4e9-b01a-4e74-bf65-c04d873b8e9a}">
+		<property name="assetPath">
+			<value>Robot voices/Robot voice 3.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>7.09821875</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{968bb652-2d16-4924-a2df-dbdc4600d17f}</destination>
+		</relationship>
+	</object>
+</objects>
