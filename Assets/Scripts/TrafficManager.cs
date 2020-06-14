@@ -22,6 +22,7 @@ public class TrafficManager : MonoBehaviour
     [SerializeField, Range(1, 5)] private float emission = 4;
 
     [Header("Timer")]
+    [SerializeField, Range(0, 20)] private int timeOffset = 0;
     [SerializeField, Range(5, 50)] private int carGoTimer = 5;
     [SerializeField, Range(5, 20)] private int carStopTimer = 5;
 
@@ -37,6 +38,7 @@ public class TrafficManager : MonoBehaviour
 
     IEnumerator Loop()
     {
+        yield return new WaitForSeconds(timeOffset);
         while (active)
         {
             transitioning = false;
