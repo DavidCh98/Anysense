@@ -31,5 +31,6 @@ public class Robot : MonoBehaviour
         transform.rotation = Quaternion.LookRotation(relativePos);
         transform.position = Vector3.MoveTowards(transform.position, waypoints[current].transform.position, Time.deltaTime * speed);
         
-}
+    }
+        //FMODUnity.RuntimeManager.PlayOneShotAttached("event:/RobotFootstep", gameObject);
 }

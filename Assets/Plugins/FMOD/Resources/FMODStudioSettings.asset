@@ -16,7 +16,7 @@ MonoBehaviour:
   HasSourceProject: 1
   HasPlatforms: 1
   sourceProjectPath: VR Robot Game FMOD project/VR Robot Game FMOD project.fspro
-  sourceBankPath: VR Robot Game FMOD project/Build
+  sourceBankPath: VR Robot Game FMOD project\Build
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0
@@ -46,7 +46,7 @@ MonoBehaviour:
     Value: 0
   OverlaySettings:
   - Platform: 1
-    Value: 1
+    Value: 0
   - Platform: 2
     Value: 0
   - Platform: 20
