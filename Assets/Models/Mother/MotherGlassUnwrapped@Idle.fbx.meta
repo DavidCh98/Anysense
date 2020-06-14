@@ -6,7 +6,25 @@ ModelImporter:
   - first:
       74: -203655887218126122
     second: Idle
-  externalObjects: {}
+  - first:
+      74: -2106472897782759856
+    second: Idle (1)
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 1ddcd90287f398148817f62d227a1429, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female1605
+    second: {fileID: 2100000, guid: 75425692eea314e4798c793af432356c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: low-poly.001
+    second: {fileID: 2100000, guid: cfbc9c41b68264f4e9447c9712883d75, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -35,7 +53,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Idle
+      name: Idle (1)
       takeName: mixamo.com
       internalID: 0
       firstFrame: 0
@@ -46,7 +64,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
