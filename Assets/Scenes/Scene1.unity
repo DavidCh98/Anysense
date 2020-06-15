@@ -1807,7 +1807,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sharedProfile: {fileID: 11400000, guid: d670aecb046cedb48a17e0439c800f4e, type: 2}
-  isGlobal: 0
+  isGlobal: 1
   blendDistance: 1
   weight: 1
   priority: 2
@@ -2679,7 +2679,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
-  - waitTime: 3
+        - m_Target: {fileID: 260691363}
+          m_MethodName: Stop
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+  - waitTime: 4
     unityEvent:
       m_PersistentCalls:
         m_Calls:
@@ -2705,10 +2716,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
-  - waitTime: 2
-    unityEvent:
-      m_PersistentCalls:
-        m_Calls:
         - m_Target: {fileID: 574375571}
           m_MethodName: set_enabled
           m_Mode: 6
@@ -2720,6 +2727,21 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
+        - m_Target: {fileID: 1940066597}
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - waitTime: 12
+    unityEvent:
+      m_PersistentCalls:
+        m_Calls:
         - m_Target: {fileID: 642069036}
           m_MethodName: SetActive
           m_Mode: 6
@@ -5636,6 +5658,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   studioEventEmitter: {fileID: 1940066590}
+--- !u!143 &1940066597 stripped
+CharacterController:
+  m_CorrespondingSourceObject: {fileID: 14300000, guid: ce816f2e6abb0504092c23ed9b970dfd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1400817169}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1944860226
 PrefabInstance:
   m_ObjectHideFlags: 0
