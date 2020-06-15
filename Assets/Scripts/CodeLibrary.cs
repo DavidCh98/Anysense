@@ -18,6 +18,15 @@ public class CodeLibrary : MonoBehaviour
         return input ? false : true;
     }
 
+    public static bool IsWithinThreshold(float input, float threshold)
+    {
+        if (input > threshold && input < -threshold)
+        {
+            return false;
+        }
+        return true;
+    }
+
     public static Vector3 MaxVector3Size()
     {
         return new Vector3 { x = 10000, y = 10000, z = 10000 };

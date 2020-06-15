@@ -11,6 +11,24 @@ public class GlossJacket : MonoBehaviour
     float maxSpeed= 1;
     float acceleration= 0.4f;
     float WPradius = 1;
+
+    public float wait = 0.65f;
+    bool keepPlaying = true;
+    void Start()
+    {
+        StartCoroutine(SoundOut());
+    }
+
+    IEnumerator SoundOut()
+    {
+        while (keepPlaying)
+        {
+            FMODUnity.RuntimeManager.PlayOneShotAttached("event:/HumanFootstep", gameObject);
+            //FMODUnity.RuntimeManager.PlayOneShotAttached("event:/RobotFootstep", gameObject);
+            yield return new WaitForSeconds(wait);
+           
+        }
+    }
     void Update()
     {
         if (speed <= maxSpeed)
@@ -30,6 +48,7 @@ public class GlossJacket : MonoBehaviour
                 //stopWalkingAnimation
                 m_Animator.SetBool("StopWalking", true);
                 transform.Rotate(0, -145, 0, Space.Self);
+                keepPlaying = false;
             }
         }
         Vector3 relativePos = waypoints[current].transform.position - transform.position;

@@ -11,6 +11,23 @@ public class Robot : MonoBehaviour
     float maxSpeed= 1;
     float acceleration= 0.4f;
     float WPradius = 1;
+
+    public float wait = 1.1f;
+    bool keepPlaying = true;
+    void Start()
+    {
+        StartCoroutine(SoundOut());
+    }
+
+    IEnumerator SoundOut()
+    {
+        while (keepPlaying)
+        {
+            FMODUnity.RuntimeManager.PlayOneShotAttached("event:/RobotFootstep", gameObject);
+            yield return new WaitForSeconds(wait);
+            //FMODUnity.RuntimeManager.PlayOneShotAttached("event:/HumanFootstep", gameObject);
+        }
+    }
     void Update()
     {
         if (speed <= maxSpeed)

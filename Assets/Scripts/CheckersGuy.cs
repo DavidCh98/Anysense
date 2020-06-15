@@ -11,6 +11,24 @@ public class CheckersGuy : MonoBehaviour
     float maxSpeed = 1;
     float acceleration = 0.4f;
     float WPradius = 1;
+
+    public float wait = 0.5f;
+    bool keepPlaying = true;
+    void Start()
+    {
+        StartCoroutine(SoundOut());
+    }
+
+    IEnumerator SoundOut()
+    {
+        while (keepPlaying)
+        {
+            FMODUnity.RuntimeManager.PlayOneShotAttached("event:/HumanFootstep", gameObject);
+            //FMODUnity.RuntimeManager.PlayOneShotAttached("event:/RobotFootstep", gameObject);
+            yield return new WaitForSeconds(wait);
+           
+        }
+    }
     void Update()
     {
         if (speed <= maxSpeed)
@@ -29,6 +47,7 @@ public class CheckersGuy : MonoBehaviour
                 WPradius = 0;
                 //stopWalkingAnimation
                 m_Animator.SetBool("StopWalking", true);
+                keepPlaying = false;
             }
         }
         Vector3 relativePos = waypoints[current].transform.position - transform.position;
