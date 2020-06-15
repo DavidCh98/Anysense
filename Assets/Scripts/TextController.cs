@@ -3,11 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Events;
 
 public class TextController : MonoBehaviour
 {
     [SerializeField] private List<TextSequence> textSequences = new List<TextSequence>();
     [SerializeField] private TextMeshPro tmp = null;
+    [SerializeField] private UnityEvent unityEvent = null;
 
     [SerializeField] private bool startOnStart = false;
 
@@ -31,6 +33,7 @@ public class TextController : MonoBehaviour
             if (textSequence.animTargetTime > 0) StartCoroutine(AnimateText(textSequence));
             yield return new WaitForSeconds(textSequence.displayTime);
         }
+        unityEvent.Invoke();
         tmp.text = "";
     }
 

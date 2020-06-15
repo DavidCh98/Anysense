@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: event:/RobotVoiceMale
   guid: 9b3a3922c7478e49bce6feac47bbf07d
   Banks:
-  - {fileID: -3438505261434369995}
+  - {fileID: -3682851830517895454}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -56,7 +56,7 @@ MonoBehaviour:
   Path: event:/NeonSign
   guid: 79c79554d31f1e47aee4dba75ade99e7
   Banks:
-  - {fileID: -3438505261434369995}
+  - {fileID: -3682851830517895454}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -150,7 +150,7 @@ MonoBehaviour:
   Path: event:/RobotFootstep
   guid: 82bd65329073464d9760b7cbcaf17180
   Banks:
-  - {fileID: -3438505261434369995}
+  - {fileID: -3682851830517895454}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -176,6 +176,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-5663155631012997269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerMovement/Stopping
+  m_EditorClassIdentifier: 
+  Name: Stopping
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-4088137056446899052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -191,7 +208,7 @@ MonoBehaviour:
   Path: event:/LampPost
   guid: eb95327ca460f047a6627e6db0a36bd2
   Banks:
-  - {fileID: -3438505261434369995}
+  - {fileID: -3682851830517895454}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -199,6 +216,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 6500
+--- !u!114 &-3682851830517895454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/AmbienceBank.bank
+  SubDir: 
+  lastModified: 637277518577629479
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-3438505261434369995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,7 +267,7 @@ MonoBehaviour:
   Path: event:/AmbienceBed
   guid: fbdf694cfbb5544897994aebcb1ee7cd
   Banks:
-  - {fileID: -3438505261434369995}
+  - {fileID: -3682851830517895454}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -272,7 +307,7 @@ MonoBehaviour:
   Path: event:/UIBack
   guid: a5ed8614a8bd2a4c9a440548fda8e5da
   Banks:
-  - {fileID: -8219868277230552523}
+  - {fileID: 6377829827090493115}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -313,7 +348,7 @@ MonoBehaviour:
   Path: event:/Drone
   guid: 780bfcd4abaf1247b9d1d601a3fc74a5
   Banks:
-  - {fileID: -3438505261434369995}
+  - {fileID: -3682851830517895454}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -336,7 +371,7 @@ MonoBehaviour:
   Path: event:/CarStarting
   guid: a2c7af9cebdb2246aeddc6205053776b
   Banks:
-  - {fileID: -3438505261434369995}
+  - {fileID: -3682851830517895454}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -358,9 +393,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 2837145828057879072}
-  - {fileID: -3438505261434369995}
-  - {fileID: 5160063562683012785}
-  - {fileID: -8219868277230552523}
+  - {fileID: -3682851830517895454}
+  - {fileID: 8535142402528784924}
+  - {fileID: 6377829827090493115}
   EditorEvents:
   - {fileID: 8472532184927473911}
   - {fileID: 3139908444262955923}
@@ -379,10 +414,10 @@ MonoBehaviour:
   - {fileID: -2644067499655502955}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 5160063562683012785}
+  - {fileID: 8535142402528784924}
   StringsBanks:
   - {fileID: 2837145828057879072}
-  stringsBankWriteTime: 637276572278011777
+  stringsBankWriteTime: 637277518577639491
   cacheVersion: 3
 --- !u!114 &1611856486096885383
 MonoBehaviour:
@@ -399,7 +434,7 @@ MonoBehaviour:
   Path: event:/RobotBird
   guid: edb642375af9234186d8bc1df3c034a7
   Banks:
-  - {fileID: -3438505261434369995}
+  - {fileID: -3682851830517895454}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -422,7 +457,7 @@ MonoBehaviour:
   Path: event:/RobotVoiceFemale
   guid: 75fbcc54add69440ab98633ed8410fa2
   Banks:
-  - {fileID: -3438505261434369995}
+  - {fileID: -3682851830517895454}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -444,7 +479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: VR Robot Game FMOD project/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637276572278011777
+  lastModified: 637277518577639491
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -465,7 +500,7 @@ MonoBehaviour:
   Path: event:/HumanFootstep
   guid: 4cb743ad66670746925d1850b2c889f4
   Banks:
-  - {fileID: -3438505261434369995}
+  - {fileID: -3682851830517895454}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -505,7 +540,7 @@ MonoBehaviour:
   Path: event:/UICredits
   guid: 1086d29958af92419cfb807c88d66af8
   Banks:
-  - {fileID: -8219868277230552523}
+  - {fileID: 6377829827090493115}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -528,12 +563,12 @@ MonoBehaviour:
   Path: event:/PlayerMovement
   guid: 584b236220423d449987e7363d010025
   Banks:
-  - {fileID: -8219868277230552523}
+  - {fileID: 6377829827090493115}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 3306271161659144603}
+  - {fileID: -5663155631012997269}
   MinDistance: 0
   MaxDistance: 0
   Length: 6664
@@ -573,6 +608,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &6377829827090493115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerBank.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/PlayerBank.bank
+  SubDir: 
+  lastModified: 637277518577649486
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &6809811010744213830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -588,7 +641,7 @@ MonoBehaviour:
   Path: event:/UIConfirm
   guid: 2681375be465ad41aa4f1c43b6cd2b72
   Banks:
-  - {fileID: -8219868277230552523}
+  - {fileID: 6377829827090493115}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -611,7 +664,7 @@ MonoBehaviour:
   Path: event:/CarDoorClosing
   guid: 30800e20cf65f9459175b0e0b1e64dd7
   Banks:
-  - {fileID: -3438505261434369995}
+  - {fileID: -3682851830517895454}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -619,3 +672,21 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 3396
+--- !u!114 &8535142402528784924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: VR Robot Game FMOD project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637276548440697992
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
