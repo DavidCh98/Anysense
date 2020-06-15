@@ -438,7 +438,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 119001961}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 324.64963, y: 198.699, z: -27.377}
+  m_LocalPosition: {x: 359.37, y: 198.699, z: 10.329999}
   m_LocalScale: {x: 0.1, y: 3, z: 1.6}
   m_Children: []
   m_Father: {fileID: 0}
@@ -564,7 +564,7 @@ PrefabInstance:
     - target: {fileID: 4407888216183596075, guid: 851432eb6b286b047bec9d03ac2eccbc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 324.64963
+      value: 359.37
       objectReference: {fileID: 0}
     - target: {fileID: 4407888216183596075, guid: 851432eb6b286b047bec9d03ac2eccbc,
         type: 3}
@@ -574,7 +574,7 @@ PrefabInstance:
     - target: {fileID: 4407888216183596075, guid: 851432eb6b286b047bec9d03ac2eccbc,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -27.377
+      value: 10.33
       objectReference: {fileID: 0}
     - target: {fileID: 4407888216183596075, guid: 851432eb6b286b047bec9d03ac2eccbc,
         type: 3}
@@ -6365,7 +6365,7 @@ ReflectionProbe:
   m_BoxSize: {x: 2, y: 8, z: 20}
   m_BoxOffset: {x: 0, y: 0, z: 0}
   m_NearClip: 0.3
-  m_FarClip: 10
+  m_FarClip: 15
   m_ShadowDistance: 100
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
@@ -6388,7 +6388,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2091661797}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 324.64963, y: 198.393, z: -27.282}
+  m_LocalPosition: {x: 359.37, y: 198.393, z: 10.425}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
