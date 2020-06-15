@@ -106,7 +106,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{c74599c7-da84-4156-9e95-38fb1a04c720}">
 		<property name="volume">
-			<value>10</value>
+			<value>3</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -234,7 +234,7 @@
 			<value>{(0.000000,0.000000)(1.000000,1.000000)(2.000000,4.000000)(3.000000,11.000000)(4.000000,25.000000)(5.000000,100.000000)(6.000000,1000.000000)}</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>0.99999994</value>
 		</property>
 	</object>
 	<object class="FloatPluginParameter" id="{f10c044f-85ad-4725-9934-56a3b442f505}">

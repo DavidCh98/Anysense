@@ -85,9 +85,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{539de91a-ca7d-478c-aa29-971f5e89f48f}">
-		<property name="volume">
-			<value>6</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{152f200e-f14a-4ad9-aed8-acebd5d15480}</destination>
 		</relationship>
@@ -271,7 +268,6 @@
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -300,7 +296,7 @@
 			<value>{(0.000000,0.000000)(1.000000,1.000000)(2.000000,4.000000)(3.000000,11.000000)(4.000000,25.000000)(5.000000,100.000000)(6.000000,1000.000000)}</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>0.99999994</value>
 		</property>
 	</object>
 	<object class="FloatPluginParameter" id="{61e0be0d-06ca-4fe2-a6a9-b3ec8446975c}">
@@ -329,7 +325,6 @@
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>
