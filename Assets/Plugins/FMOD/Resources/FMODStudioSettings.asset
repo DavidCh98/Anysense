@@ -16,7 +16,7 @@ MonoBehaviour:
   HasSourceProject: 1
   HasPlatforms: 1
   sourceProjectPath: VR Robot Game FMOD project/VR Robot Game FMOD project.fspro
-  sourceBankPath: VR Robot Game FMOD project\Build
+  sourceBankPath: VR Robot Game FMOD project/Build
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0
