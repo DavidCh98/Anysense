@@ -283,7 +283,7 @@
 			<value>{(0.000000,0.000000)(1.000000,1.000000)(2.000000,4.000000)(3.000000,11.000000)(4.000000,25.000000)(5.000000,100.000000)(6.000000,1000.000000)}</value>
 		</property>
 		<property name="value">
-			<value>0.99999994</value>
+			<value>2.49999976</value>
 		</property>
 	</object>
 	<object class="FloatPluginParameter" id="{4d3b1e15-3ba8-46fc-bfa7-086375cdf85c}">
@@ -305,7 +305,7 @@
 			<value>{(0.000000,0.000000)(1.000000,5.000000)(2.000000,10.000000)(3.000000,100.000000)(4.000000,1000.000000)(5.000000,10000.000000)}</value>
 		</property>
 		<property name="value">
-			<value>250</value>
+			<value>100</value>
 		</property>
 	</object>
 	<object class="DataPluginParameter" id="{115550d9-9a5f-4625-8c15-7952bf3c3bd9}">

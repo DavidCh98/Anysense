@@ -122,6 +122,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{3b4ebb3e-f55d-415f-91b1-37381904cc0e}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{e21b5fc8-2448-4de3-ae19-d5eb40e41944}</destination>
 		</relationship>
@@ -583,7 +586,7 @@
 			<value>{(0.000000,0.000000)(1.000000,5.000000)(2.000000,10.000000)(3.000000,100.000000)(4.000000,1000.000000)(5.000000,10000.000000)}</value>
 		</property>
 		<property name="value">
-			<value>25</value>
+			<value>100</value>
 		</property>
 	</object>
 	<object class="DataPluginParameter" id="{6c2fd803-e335-44ef-a5d7-7782fa09e07c}">
