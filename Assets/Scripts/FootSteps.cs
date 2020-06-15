@@ -1,36 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 public class FootSteps : MonoBehaviour
 {
+    [SerializeField] private StudioEventEmitter studioEventEmitter = null;
 
-	public GameObject objectWithScript;
-	FMOD.Studio.EventInstance Movement;
-	private bool moveForward;
+    private CharacterController characterController = null;
 
-	// Use this for initialization
-	void Start()
+    void Start()
 	{
-		Movement = FMODUnity.RuntimeManager.CreateInstance("event:/PlayerMovement");
-		moveForward = objectWithScript.GetComponent<OVRPlayerController>();
+        characterController = GetComponent<CharacterController>();
 	}
 
-		// Update is called once per frame
-		void FixedUpdate()
-		{
-				if (moveForward)
-				{
-					Movement.start();
-				}
-				else
-				{
-					Movement.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-				}
-		}
-		private void OnDestroy()
-		{
-		Movement.release();
-		Movement.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-		}
+    void FixedUpdate()
+    {
+        if (characterController.velocity.x != 0 || characterController.velocity.z != 0)
+        {
+            if (studioEventEmitter.IsPlaying() == false) studioEventEmitter.Play();
+        }
+        else if (studioEventEmitter.IsPlaying()) studioEventEmitter.Stop();
+    }
 }

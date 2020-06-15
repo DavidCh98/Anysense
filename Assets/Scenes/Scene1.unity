@@ -4106,15 +4106,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 331.64
+      value: 314.01
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 200.8
+      value: 197.56
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.4
+      value: -15.48
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalRotation.x
@@ -5587,6 +5587,29 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1400817169}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1940066590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940066589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/PlayerMovement
+  PlayEvent: 0
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!114 &1940066595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5612,7 +5635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0f4aae73cde5704cb78b9ea32ec5418, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectWithScript: {fileID: 1940066589}
+  studioEventEmitter: {fileID: 1940066590}
 --- !u!1001 &1944860226
 PrefabInstance:
   m_ObjectHideFlags: 0
