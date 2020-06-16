@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8779003132204439211}
   - component: {fileID: 5869417267709483267}
   - component: {fileID: 166848710527897045}
+  - component: {fileID: 3077570826960823891}
   m_Layer: 0
   m_Name: Cylinder.002
   m_TagString: Untagged
@@ -79,6 +80,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3077570826960823891
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2277467698593010562}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8691780276856062721, guid: 4c3871173148ab147ba8f84ade90f175, type: 3}
 --- !u!1 &7408007140711185164
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,6 +104,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5806792374729525535}
   - component: {fileID: 696557562637492439}
+  - component: {fileID: 2621984745504765304}
   m_Layer: 0
   m_Name: Street Light
   m_TagString: Untagged
@@ -135,6 +151,20 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 0
   OverrideMaxDistance: 0
+--- !u!64 &2621984745504765304
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7408007140711185164}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &8888278693453073817
 GameObject:
   m_ObjectHideFlags: 0
