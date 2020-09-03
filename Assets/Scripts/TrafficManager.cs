@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class TrafficManager : MonoBehaviour
 {
-    enum CarColor { red, orange, green };
+    private enum CarColor { red, orange, green };
 
     [Header("Objects")]
     [SerializeField] private MeshRenderer[] pedestrianTrafficMesh = null;
     [SerializeField] private MeshRenderer[] carTrafficScreen = null;
 
-    [Header("Materials")]
+    [Header("Materials for Car Traffic Screen")]
     [SerializeField] private Material greenScreen = null;
     [SerializeField] private Material orangeScreen = null;
     [SerializeField] private Material redScreen = null;
